@@ -15,7 +15,7 @@ Spring实现比直接使用BufferImage直接读取图片效率要高
 ## 2018-04-27
 1. 我将它简化，直接使用ImageIO读取出BufferImage，然后直接调用SpringBoot中的printBanner,（如图所示）标红的方法为简化入口点
 2. 可以输出为文件了，补上两张UML图说明一下就可以了
-![SpringBoot中ImageBanner核心方法调用顺序]("imgs/3.png")
+![SpringBoot中ImageBanner核心方法调用顺序](imgs/3.png)
 3. 发现输出的图像有点变形，明天再接着调试一下吧
 
 总结一下，这个方法还有问题，打印出来的图像有点变形。比如：命令行的参数，输出时背景色翻转，支持多种字符输出都没有实现。还有针对图像处理的getDistance、getLuminance这个方法没有看明白。
