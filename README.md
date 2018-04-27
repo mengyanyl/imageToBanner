@@ -1,6 +1,6 @@
 # 将每天做的工作记录于此
 先说感想，说实话拿到demand后，首先想到的是在SpringBoot中有Banner功能的，所以查看了SpringBoot源码（如下图所示），发现确实是这个关系,就参考了ImageBanner的做法
-![SpringBoot中ImageBanner继承关系]("imgs/1.png")
+![SpringBoot中ImageBanner继承关系](imgs/1.png)
 
 
 ## 2018-04-24
