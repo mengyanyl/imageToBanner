@@ -26,7 +26,7 @@ public class ImageBanner implements BannerIntf {
         LUMINANCE_START = 10 * PIXEL.length;
     }
 
-    private static final int MAX_IMG_WIDTH_DEFAULT = 52;
+    private static final int MAX_IMG_WIDTH_DEFAULT = 75;
 
     public String printBanner(File imgFile, PrintStream out) {
         String headlessProperty = System.getProperty("java.awt.headless");
