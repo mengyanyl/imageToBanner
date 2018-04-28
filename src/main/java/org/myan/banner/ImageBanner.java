@@ -12,7 +12,7 @@ import java.io.*;
 
 /**
  * Created by myan on 2018/4/26.
- * 代码取自SpringBoot，图片加载方式简化了没有使用更快速的Frame，直接使用ImageIO读取出BufferedImage
+ * 代码取自SpringBoot，图片加载方式简化了，没有使用SpringBoot中更快速的Frame，直接使用ImageIO读取出BufferedImage
  *
  * @author myan
  */
@@ -28,7 +28,7 @@ public class ImageBanner implements BannerIntf {
 
     private static final int MAX_IMG_WIDTH_DEFAULT = 75;
 
-    public String printBanner(File imgFile, PrintStream out) {
+        public String printBanner(File imgFile, PrintStream out) {
         String headlessProperty = System.getProperty("java.awt.headless");
         String banner = "";
         try {
