@@ -20,7 +20,7 @@ Spring实现比直接使用BufferImage直接读取图片效率要高
 
 ## 2018-04-28
 1. 生成的txt文件与图片名称一致
-2. 增加了bin文件夹，可以直接运行java -jar imageToBanner-1.0-SNAPSHOT.jar rat-clipart-2-150x150.jpg，生成文件
+2. 增加了bin文件夹，可以直接运行`java -jar imageToBanner-1.0-SNAPSHOT.jar rat-clipart-2-150x150.jpg`，生成文件
 
 总结一下，这个方法还有问题，打印出来的图像有点变形。比如：命令行的参数，输出时背景色翻转，支持多种字符输出都没有实现。还有针对图像处理的getDistance、getLuminance这个方法没有看明白。
 
